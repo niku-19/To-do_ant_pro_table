@@ -1,0 +1,91 @@
+@import 'antd/dist/antd.css';
+
+
+.container {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.App {
+  width: 90rem;
+  height: auto;
+  background-color: #161a2b;
+  border : 2px solid #1e1e1e;
+  border-radius: 1rem;
+}
+
+.App h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 4rem;
+  padding-top: 3rem ;
+}
+
+.App-header {
+  width: 80rem;
+  height: 10rem;
+  margin: 0rem auto;
+}
+
+.todo-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 23px 4px 23px 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin: 1rem;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+
+
+.select {
+  width: 100%;
+  min-width: 5ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #f2f2f2;
+  color: black;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+  color: whitesmoke;
+  font-size: 2rem;
+}
